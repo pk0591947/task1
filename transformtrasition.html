@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            transition: 3s;
+            background-color: blueviolet;
+            
+        }
+        button:hover{
+            background-color: blue;
+            transform: scale(2.1);
+            
+    
+
+        }
+        .bg{
+            background-color: aqua;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            border: 2px solid;
+            height: 600px;
+            
+
+        }
+          .box{height: 200px;
+            width:100px;
+            border: 2px solid;
+            background-color: blue;
+            transition: 4s 2s;
+            
+        }
+
+            .scale:hover{
+                transform: scale(1.5);
+                background-color: blueviolet;
+                
+            }
+            .translate:hover{
+                transform:translate(50px,100px) ;
+                background-color: burlywood;
+                width: 400px;
+            }
+            .skew:hover{
+                transform: skewy(16deg);
+                background-color: azure;
+                box-shadow: 3px 3px 4px 4px greenyellow;
+            }
+            .rotate:hover{
+                transform: rotate(-20deg);
+                background-color: cornflowerblue;
+                
+
+            }
+    </style>
+</head>
+<body>
+   <button>click me</button><br><br>
+   <div class="bg">
+    <div class="box scale">scale</div>
+     <div class="box translate">translate</div>
+          <div class="box skew">skew</div>
+           <div class="box rotate">rotate</div>
+
+   </div>
+</body>
+</html>

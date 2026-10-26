@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        .fly{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            width: 100%;
+            gap: 50px;
+        
+        
+
+        }
+    
+        img{
+            height: 200px;
+            width: 100%;
+            max-width: 200px;
+            
+    
+            border: 5px solid;
+            border-radius: 30px;
+            box-shadow: 3px 3px 9px 5px lightblue;
+        
+        
+        }
+    
+        
+        h1,h2{
+            text-align: center;
+            background-color: brown;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Butterfly</h1>
+    <div class="fly">
+        <div><img data-aos="flip-right"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe9I6GoXsaTcfSd5XNFIf_3zhXlTzduTurzmzr6gAZcw&s=10" alt=""></div>
+         <div><img data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOp1xdPlqbj9nAnvRAxiuYAKhJyqMMjOmN-DQErL5sjQ&s=10" alt=""></div>
+          <div><img data-aos="fade-up"
+     data-aos-anchor-placement="top-center"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrzUqASqs3ZrPNNKp4JXyU7k4XbfpeweGqEJusMjzzEA&s=10" alt=""></div>
+           <div ><img data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9twQYkLv-XyxEDr-4UVP144JJwnSz_dhMc6o30qTMgA&s=10" alt=""></div>
+            <div ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT30OM4cUFAmlT8379zpBEdD5OPwWSBjFZeeWhxpa38A&s=10" alt=""></div>
+             <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS60a5-3Lh1YNy0A_nZOAVBpgxz1zvrJg0gLhN9-hTEkg&s=10" alt=""></div>
+    </div>
+    <h2>Nice butterfly</h2>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Box Sizing</title>
+
+    <style>
+        .container {
+            display: flex;
+            gap: 30px;
+        }
+
+        .box {
+            width: 200px;
+            height: 350px;
+            padding: 20px;
+            border: 10px solid black;
+        }
+
+        .content {
+            box-sizing: content-box;
+            background-color: lightblue;
+        }
+
+        .border {
+            box-sizing: border-box;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="box content">
+            Content Box
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio id eligendi non, dolorem beatae suscipit
+                quaerat explicabo, eos praesentium nulla perferendis iusto. Aspernatur officiis, natus eius unde fuga
+                nam ad?</p>
+        </div>
+
+        <div class="box border">
+            Border Box
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita hic, veniam placeat quod laborum
+                voluptatum impedit provident illum quibusdam commodi blanditiis illo mollitia consectetur, facilis
+                beatae dolor! Illo, aut accusantium?</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
